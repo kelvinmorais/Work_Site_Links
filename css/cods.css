@@ -1,0 +1,799 @@
+@charset "utf-8";
+
+/*##############################*/
+/* Txt cabeçario lado esquerdo */
+.txtcab{
+	color: rgba(166,166,166,1.00); 
+	text-align: left; 
+	font-family: "Segoe UI Light";
+	margin: 0px;
+	font-weight: normal;
+	
+} 
+
+/* Txt Cabeçario lado direito */
+.txtcab-d{
+	color: rgba(166,166,166,1.00); 
+	text-align: right; 
+	font-family: "Segoe UI Light";
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: none;
+	
+} 
+
+/* Txt Cabeçario lado direito */
+.txtcab-d2{
+	color: rgba(166,166,166,1.00); 
+	text-align: right; 
+	font-family: "Segoe UI Light";
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: none;
+	
+} 
+
+/* um link normal não visitado */
+.txtcab-d2:link {
+    color: rgba(166,166,166,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+	
+}
+
+/* um link que o usuário visitou */
+.txtcab-d2:visited {
+    color: rgba(166,166,166,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+
+/* um link quando o usuário passar por cima dele */
+.txtcab-d2:hover {
+    color: rgba(166,166,166,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none;  /* Sem sublinhado */
+	font-weight: bold; /* bold negrito */
+}
+
+/* um link no momento em que é clicado */
+.txtcab-d2:active {
+    color: rgba(166,166,166,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+
+/* Texto Rodapé */
+.rodape{
+	color: rgba(0,0,0,1.00); 
+	text-align: center; 
+	font-family: "Segoe UI Light";
+	font-size: 12pt;
+	margin: 0px;
+	font-weight: inherit; 
+	
+} 
+
+/*##############################*/
+/* Cor Barra menus ao passar mouse */
+
+li2 a:hover {
+    background-color: rgba(156,124,76,1.00);
+	
+}
+
+/* texto e formato barra de menus */
+li2 a {
+    text-decoration: none;
+	font-family: "Segoe UI Light";
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+/* margem dos blocos */
+ul2 {
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(136,104,56,1.00);
+}
+
+/* posicionar na horizontal */
+
+li2 {
+    float: left;
+}
+
+
+
+
+
+/*##############################*/
+/* TEXTO TELA DE CONFIRMACAO */
+.confirm{
+	font-family: "Segoe UI Light";
+	color: rgba(136,104,56,1.00);
+	text-align: center;
+	font-size: 25pt;
+	margin: 40px;
+}
+
+.confirm2{
+	font-family: "Segoe UI Light";
+	color: rgba(136,104,56,1.00);
+	text-align: center;
+	font-size: 18pt;
+	margin: 30px;
+}
+
+/*##############################*/
+/* TEXTO TELA DE CONFIRMACAO */
+/* hiperlink */
+.confirm3:link {
+    color: rgba(136,104,56,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+	
+}
+
+/* um link que o usuário visitou */
+.confirm3:visited {
+    color:rgba(136,104,56,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+}
+
+/* um link quando o usuário passar por cima dele */
+.confirm3:hover {
+    color: rgba(136,104,56,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: none;  /* Sem sublinhado */
+	font-weight: bold; /* bold negrito */
+}
+
+/* um link no momento em que é clicado */
+.confirm3:active {
+    color: rgba(136,104,56,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+}
+
+/* titulos home */
+.titulos{
+	font-family: "Segoe UI Light";
+	color: rgba(136,104,56,1.00);
+	text-align: center;
+	font-size: 25pt;
+	margin: 40px;
+}
+
+/*##############################*/
+/* link Ver categorias */
+.titulos2{
+	font-family: "Segoe UI Light";
+	color: rgba(136,104,56,1.00);
+	text-align: center;
+	font-size: 12pt;
+	margin: 20px;
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+
+/* um link normal não visitado */
+.titulos2:link {
+    color: rgba(136,104,56,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+	
+}
+
+/* um link que o usuário visitou */
+.titulos2:visited {
+    color: rgba(136,104,56,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+
+/* um link quando o usuário passar por cima dele */
+.titulos2:hover {
+    color: rgba(136,104,56,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none;  /* Sem sublinhado */
+	font-weight: normal; /* bold negrito */
+}
+
+/* um link no momento em que é clicado */
+.titulos2:active {
+    color: rgba(136,104,56,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+
+/*##############################*/
+/* Texto cards menus de compra */
+.cards1{
+	font-family: "Segoe UI Light";
+	text-align: center;
+}
+
+.cards2{
+	font-family: "Segoe UI Light";
+	text-align: center;
+	font-weight: bold; 
+}
+
+
+/*##############################*/
+/* Titulos rodapé */
+.titulorod{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00);
+	text-align: left;
+	font-size: 15pt;
+	margin: 20px;
+	font-weight: bold; 
+}
+
+/* Conteudo Rodapé */
+.rod{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00);
+	text-align: left;
+	font-size: 12pt;
+	margin: 20px;
+	font-weight: normal;
+}
+
+/*##############################*/
+/* links rodapé */
+.r{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00);
+	text-align: ;
+	font-size: 12pt;
+	margin: 0px;
+	font-weight: normal;
+	list-style-type: disc; /* boliha de lista */
+	text-decoration: none;*/
+	
+}
+
+/* um link normal não visitado */
+.r:link {
+    color: rgba(0,0,0,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+	
+}
+
+/* um link que o usuário visitou */
+.r:visited {
+    color: rgba(0,0,0,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+
+/* um link quando o usuário passar por cima dele */
+.r:hover {
+    color: rgba(0,0,0,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none;  /* Sem sublinhado */
+	font-weight: bold; /* bold negrito */
+}
+
+/* um link no momento em que é clicado */
+.r:active {
+    color: rgba(0,0,0,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+	
+/*##############################*/
+/* texto BARRA de titulos marrom titulo branco */	
+.titulomarrom{
+	font-family: "Segoe UI Light";
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-size: 18pt;
+	margin: 0px;
+	font-weight: normal;
+	
+}
+
+/*##############################*/
+/* Botão marrom */	
+.btn2{
+	text-align: center;
+	font-family: "Segoe UI Light";
+	margin-top:10px;
+}
+
+/* preenche ao clicar */	
+.efeitob{
+	border: none;
+	color: #FFFFFF;
+	padding: 8px;
+	margin: 0px;
+	font-size: 20px;
+	line-height; 24px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing:none;
+	cursor: pointer;
+	transition:all 400ms ease;
+	
+}
+
+/* passa mouse muda cor */	
+.efeito-1{
+	width: 100%;
+	background-color: rgba(136,104,56,1.00);
+}
+
+/* clicar */	
+.efeito-1:hover{
+	width: 100%;
+	background-color: rgba(156,124,76,1.00);
+	box-shadow: inset 0 0 0 2px rgba(136,104,56,1.00);
+		
+}
+
+/*##############################*/
+/* Botão face */	
+.btface{
+	text-align: center;
+	font-family: "Segoe UI Light";
+	margin-top:10px;
+}
+
+/* passa mouse muda cor */	
+.btfacee-1{
+	width: 100%;
+	background-color: rgba(47,85,151,1.00);
+}
+
+/* clicar */	
+.btfacee-1:hover{
+	width: 100%;
+	background-color: rgba(57,95,161,1.00);
+	box-shadow: inset 0 0 0 2px rgba(47,85,151,1.00);
+		
+}
+
+/* Imagem edição face */
+.icon_fac {
+    text-align: left; /* lado */
+    height: 25px; /* tamanho */
+    width: 25px; /* tamanho */
+    position: absolute;
+    left: 20px; /* distancia esquerda */
+    top:10px;
+}
+
+/*##############################*/
+/* imagem de fundo login */
+.imgfundolog {
+ 	background-image: url(imagens/im3.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+/*##############################*/
+/* imagem de fundo cadastro */
+.imgfundocad {
+ 	background-image: url(imagens/im3-2.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+
+/*##############################*/
+/* tela de categorias */	
+.corfundo {
+	 background: #DDD; /* define cor de fundo */
+}
+
+/* imagem de fundo no div */
+.imgfundo1 {
+ 	background-image: url(imagens/100.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.imgfundo2 {
+ 	background-image: url(imagens/101.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.imgfundo3 {
+ 	background-image: url(imagens/102.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.imgfundo4 {
+ 	background-image: url(imagens/103.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.imgfundo5 {
+ 	background-image: url(imagens/104.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.imgfundo6 {
+ 	background-image: url(imagens/105.png);
+ 	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+/*##############################*/
+/* TELA PRODUTOS - titulos */
+.aa{
+	font-family: "Segoe UI Light";
+	text-decoration: none;  
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-size: 25pt;
+	margin: 40px;
+	font-weight: normal;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+		
+
+/* um link normal não visitado */
+.aa:link {
+    color: white;
+	font-family: "Segoe UI Light";
+	text-decoration: none;
+	
+}
+
+/* um link que o usuário visitou */
+.aa:visited {
+    color: white;
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+}
+
+/* um link quando o usuário passar por cima dele */
+.aa:hover {
+    color: white;
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+/* um link no momento em que é clicado */
+.aa:active {
+    color: white;
+	font-family: "Segoe UI Light";
+	text-decoration: none; 
+	text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; /* Sombra */
+}
+
+
+/*##############################*/
+/* TEXTO FORMULARIO */
+.txtform{
+	font-family: "Segoe UI Light";
+	color: rgba(128,128,128,1.00);
+	text-align: ;
+	font-size: 14pt;
+	margin: 0px;
+	font-weight: normal;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/*##############################*/
+/* TEXTO FORMULARIO 2 */
+.txtform2{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00);
+	text-align: ;
+	font-size: 14pt;
+	margin: 0px;
+	font-weight: normal;
+}
+
+
+/*##############################*/
+/* link neutro */
+.linkform{
+	font-family: "Segoe UI Light";
+	color: rgba(128,128,128,1.00);
+	text-align: right ;
+	font-size: 14pt;
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: underline;
+	/*text-shadow: 0.1em 0.1em 0.2em black;*/
+}
+		
+
+/* um link normal não visitado */
+.linkform:link {
+	color: rgba(128,128,128,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+	
+}
+
+/* um link que o usuário visitou */
+.linkform:visited {
+	color: rgba(128,128,128,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+}
+
+/* um link quando o usuário passar por cima dele */
+.linkform:hover {
+	color: rgba(128,128,128,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* um link no momento em que é clicado */
+.linkform:active {
+	color: rgba(128,128,128,1.00);
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+	/*text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; /* Sombra */
+}
+
+
+
+/*##############################*/
+/* galeria - desativada*/
+
+.marg{
+	margin: 0;	
+	padding:0;
+}
+
+/* imagem na tela */
+.lbox{
+	visibility: hidden;
+	opacity:0;
+}
+
+/* imagem na tela ao href direcionar */
+.lbox:target{
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(10,10,10,.7);
+	position: fixed;
+}
+
+/* transição */
+.lbox:target .box_img img{
+	opacity: 1;
+	transition: opacity .4s linear;
+}
+
+
+.box_img{
+	width: 1000px;
+	margin: 150px auto;
+}
+
+/* transição */
+.box_img img{
+	opacity: 0;
+}
+
+/* botao galeria */
+.btngeral{
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+#prev{
+	left: 5%;
+	top: 45%;
+}
+
+#next{
+	right: 5%;
+	top: 45%;
+}
+
+#close{
+	top:0;
+	right: 2%;
+}
+
+/* dimensão imagem */
+.min{
+	width: 200px;
+	padding: 10px;
+	
+}
+  body { overflow-x: hidden; }
+
+/* Caso queira fazer uma lista de imagem estilizada
+
+isto no css
+
+ul{
+	width: 880px;
+	list-style:none;
+	display: flex;
+	margin: 100px auto;
+	
+}
+
+isto no html
+
+<ul>
+<li> <a href="#img1><img src="#" class="min"></a></li>
+<li> <a href="#img2><img src="#" class="min"></a></li>
+<li> <a href="#img3><img src="#" class="min"></a></li>
+<li> <a href="#img4><img src="#" class="min"></a></li>
+</ul> */
+
+
+
+
+/*##############################*/
+/* Texto detalhes */
+.txt1{
+	color: rgba(0,0,0,1.00); 
+	text-align: left; 
+	font-family: "Segoe UI Light";
+	margin: 0px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.txt2{
+	color: rgba(166,166,166,1.00); 
+	text-align: left; 
+	font-family: "Segoe UI Light";
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: underline;
+	
+} 
+
+
+.txt3{
+	font-family: "Segoe UI Light";
+	color: rgba(166,166,166,1.00); 
+	text-align: center;
+	font-size: 12pt;
+	margin: 0px;
+	/*list-style-type: disc; /* boliha de lista */
+	text-decoration: underline;
+	
+}
+
+/* um link normal não visitado */
+.txt3:link {
+    color: rgba(166,166,166,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+	
+}
+
+/* um link que o usuário visitou */
+.txt3:visited {
+    color: rgba(166,166,166,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+}
+
+/* um link quando o usuário passar por cima dele */
+.txt3:hover {
+    color: rgba(166,166,166,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: underline;  /* Sem sublinhado */
+	font-weight: normal; /* bold negrito */
+}
+
+/* um link no momento em que é clicado */
+.txt3:active {
+    color: rgba(166,166,166,1.00); 
+	font-family: "Segoe UI Light";
+	text-decoration: underline;
+}
+
+
+.txt4{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00); 
+	text-align: left;
+	font-size: 12pt;
+	margin: 0px;
+	/*list-style-type: disc; /* boliha de lista */
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.txt5{
+	font-family: "Segoe UI Light";
+	color: rgba(136,104,56,1.00);
+	text-align: left;
+	font-size: 20pt;
+	margin: 0px;
+}
+
+.txt6{
+	color: rgba(166,166,166,1.00); 
+	text-align: left; 
+	font-family: "Segoe UI Light";
+	margin: 0px;
+	font-weight: normal;
+	text-decoration: none;
+	
+} 
+
+.txt7{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00); 
+	text-align: left;
+	font-size: 12pt;
+	margin: 0px;
+	/*list-style-type: disc; /* boliha de lista */
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.txt8{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00); 
+	text-align: left;
+	font-size: 14pt;
+	margin: 0px;
+	/*list-style-type: disc; /* boliha de lista */
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.txt9{
+	font-family: "Segoe UI Light";
+	color: rgba(0,0,0,1.00); 
+	text-align: left;
+	font-size: 14pt;
+	margin: 0px;
+	list-style-type: circle; /* boliha de lista */
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* titulos Forma de pagamento */
+.txt10{
+	font-family: "Segoe UI Light";
+	color: rgba(136,104,56,1.00);
+	text-align: center;
+	font-size: 25pt;
+	margin: 0px;
+}
+
