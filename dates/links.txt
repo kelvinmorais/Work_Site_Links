@@ -1,0 +1,65 @@
+LINKS
+
+ti
+
+src
+https://src.softtrade.com.br/
+
+
+
+
+seventradesys
+https://webmail-seguro.com.br/seventradesys.com.br/
+
+popsys
+https://webmail-seguro.com.br/popsys.com.br/
+
+webmail seventrade
+https://mail.seventrademkt.com.br/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.seventrademkt.com.br%2fowa%2f
+
+webmail poptrade
+https://mail.poptrade.com.br/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.poptrade.com.br%2fowa
+
+
+
+helpdesk
+http://chamadosti.poptrade.com.br/redmine/login
+
+
+
+fator
+https://asp2.softtrade.com.br/FW_POPTRADE/login.xhtml
+
+
+tradeview
+
+http://tradeview.com.br/login
+
+gestão de ativos
+http://54.94.239.221/ga/(X(1)S(hwjm21uisco3h4majvxzyw1b))/default.aspx?AspxAutoDetectCookieSupport=1
+
+
+holmes
+https://poptrade.holmesdoc.com/#login/home
+
+
+intranet seventrade
+http://intranet.seventrademkt.com.br/sessions/new
+
+intranet poptrade
+http://intranet.poptrade.com.br/sessions/new
+
+
+
+agile 
+https://seven.agilepromoter.com/webapp/
+
+bi
+http://bi.seventrademkt.com.br/qlikview/index.htm
+
+academia (fora do ar)
+http://seventrademkt.com.br/academia-seven/
+
+solicitação de carta (fora do ar)
+http://192.168.1.13/cartas/index.asp
+
